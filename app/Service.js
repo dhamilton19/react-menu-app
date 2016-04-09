@@ -1,6 +1,6 @@
 require('whatwg-fetch');
 import {AppState} from 'simple-state-manager/lib';
-import SubscriptionManager from './SubscriptionManager';
+import SubscriptionManager from 'simple-subscription-manager';
 
 
 export default class Service {

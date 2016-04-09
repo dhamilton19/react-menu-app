@@ -52,6 +52,7 @@
     "react-dom": "^0.14.0",
     "react-toolbox": "^0.15.0",
     "simple-state-manager": "git+https://github.com/dhamilton91/simple-state-manager.git",
+    "simple-subscription-manager": "git+https://github.com/dhamilton91/simple-subscription-manager.git",
     "whatwg-fetch": "^0.11.0"
   }
 }

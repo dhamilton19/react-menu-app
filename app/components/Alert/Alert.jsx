@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import SubscriptionManager from '../../SubscriptionManager';
+import {SubscriptionManager} from 'simple-subscription-manager';
 
 require('./styles.css');
 
