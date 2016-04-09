@@ -9,7 +9,7 @@ import SaveButton from '../SaveButton';
 
 require('./styles.css');
 
-import {AppState} from 'simple-state-manager/lib';
+import {AppState} from 'simple-state-manager';
 
 const questions = [
 	'Please choose a starter:',
