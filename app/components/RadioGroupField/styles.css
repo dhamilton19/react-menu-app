@@ -1,0 +1,9 @@
+div.radio-group-field {
+	margin-bottom: 30px;
+}
+
+div.radio-group-field > h5 {
+	margin-bottom: 10px;
+	color: #4C4C4C;
+	font-weight: 400;
+}

@@ -1,0 +1,5 @@
+**/node_modules/
+**/build/
+lib
+components/LeafletFeature/AwesomeMarkers/
+components/LeafletLayer/MarkerCluster/
