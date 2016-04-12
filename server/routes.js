@@ -7,8 +7,8 @@ module.exports = function (app, path) {
 	});
 
 	app.post('/order', (req, res) => {
-		ordersService.save(req.body, function(error){
-			res.send({success: !error});
+		ordersService.save(req.body, function(success){
+			res.send(success);
 		});
 	});
 

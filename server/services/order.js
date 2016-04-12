@@ -1,13 +1,22 @@
-const config = require('./../config');
+const config = require('../config');
 
-const Firebase = require('firebase');
-
-const ref = new Firebase(config.firebaseUrl);
+const Db = require('json-db').Db;
+Db.init({directory:config.directory});
 
 module.exports = {
 
 	save: function (data, callback) {
-		ref.child('orders').push(data, callback);
+
+		if(data.name && data.starter && data.main) {
+			const newData = {};
+			newData[data.name] = data;
+			Db.addToQueue(newData);
+
+			callback({success: true});
+		}
+		else{
+			callback({success: false});
+		}
 	}
 
 };

@@ -1,4 +1,3 @@
-require('whatwg-fetch');
 import {AppState} from 'simple-state-manager';
 import {SubscriptionManager} from 'simple-subscription-manager';
 

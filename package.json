@@ -22,14 +22,14 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "babel-preset-stage-2": "^6.5.0",
-	"classnames": "^2.2.1",
+    "classnames": "^2.2.1",
     "core-js": "^1.2.6",
     "cross-env": "^1.0.5",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^0.9.1",
     "glob": "^6.0.2",
     "node-sass": "^3.4.2",
-	"normalize.css": "^3.0.3",
+    "normalize.css": "^3.0.3",
     "postcss-loader": "^0.8.0",
     "react-docgen": "^2.4.0",
     "react-transform-catch-errors": "^1.0.0",
@@ -46,13 +46,11 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.3",
-    "firebase": "^2.4.2",
-    "lodash": "^4.6.1",
+    "json-db": "git+https://github.com/dhamilton91/json-db.git",
     "react": "^0.14",
     "react-dom": "^0.14.0",
     "react-toolbox": "^0.15.0",
     "simple-state-manager": "git+https://github.com/dhamilton91/simple-state-manager.git",
-    "simple-subscription-manager": "git+https://github.com/dhamilton91/simple-subscription-manager.git",
-    "whatwg-fetch": "^0.11.0"
+    "simple-subscription-manager": "git+https://github.com/dhamilton91/simple-subscription-manager.git"
   }
 }

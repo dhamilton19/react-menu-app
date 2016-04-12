@@ -4,8 +4,8 @@ React Menu App is an example project using:
 
 1. simple-state-manager (https://github.com/dhamilton91/simple-state-manager)
 2. simple-subscription-manager (https://github.com/dhamilton91/simple-subscription-manager)
-3. React Toolbox (https://www.npmjs.com/package/react-toolbox)
-4. Firebase (https://www.npmjs.com/package/firebase)
+3. json-db (https://github.com/dhamilton91/json-db)
+4. React Toolbox (https://www.npmjs.com/package/react-toolbox)
 
 
 ##Getting Started
