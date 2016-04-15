@@ -9,12 +9,12 @@ require('./styles.css');
 
 export default class App extends Component {
 
-	render() {
-		return (
-			<ToolboxApp>
-				<Alert />
-				<OrderPage />
-			</ToolboxApp>
-		)
-	}
+    render() {
+        return (
+            <ToolboxApp>
+                <Alert />
+                <OrderPage />
+            </ToolboxApp>
+        )
+    }
 }

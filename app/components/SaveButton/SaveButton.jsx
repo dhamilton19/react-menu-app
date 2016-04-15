@@ -9,12 +9,12 @@ require('./styles.css');
 
 export default class SaveButton extends Component {
 
-	render() {
-		return <Button className='save-button' label='Submit' raised primary onClick={this.handleClick}/>
-	}
+    render() {
+        return <Button className='save-button' label='Submit' raised primary onClick={this.handleClick}/>
+    }
 
-	handleClick = () => {
-		Service.save();
-	};
+    handleClick = () => {
+        Service.save();
+    };
 
 }

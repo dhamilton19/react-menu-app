@@ -1,25 +1,25 @@
 .alert {
-	position: fixed;
-	margin-top: 0;
-	margin-left: 0;
-	margin-right: 0;
-	height: 40px;
-	width: 100%;
-	border-radius: 0.2rem;
-	justify-content: center;
-	text-align: center;
-	text-decoration: none;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-	color: white;
-	display: flex;
-	flex-direction: column;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 40px;
+    width: 100%;
+    border-radius: 0.2rem;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .success {
-	background-color: #4CAF50;
+    background-color: #4CAF50;
 }
 
 .fail {
-	background-color: #F44336;
+    background-color: #F44336;
 }

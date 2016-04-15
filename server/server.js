@@ -11,10 +11,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.use(require('webpack-dev-middleware')(compiler, {
-	publicPath: config.output.publicPath,
-	stats: {
-		colors: true
-	}
+    publicPath: config.output.publicPath,
+    stats: {
+        colors: true
+    }
 }));
 
 app.use(require('webpack-hot-middleware')(compiler));
@@ -22,10 +22,10 @@ app.use(require('webpack-hot-middleware')(compiler));
 require('./routes')(app, path);
 
 app.listen(8080, '0.0.0.0', (err) => {
-	if (err) {
-		console.log(err);
-		return;
-	}
+    if (err) {
+        console.log(err);
+        return;
+    }
 
-	console.log('Listening at http://0.0.0.0:8080');
+    console.log('Listening at http://0.0.0.0:8080');
 });
